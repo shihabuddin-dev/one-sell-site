@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+body {
+    font-family: "Manrope", serif;
+}
+
+body section {
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Common Style  */
+.common-title {
+    color: rgb(33, 33, 33);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 55px;
+}
+
+.common-caption {
+    color: rgb(73, 73, 73);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+/* Navbar Section Style  */
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.nav-icon {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: rgb(33, 33, 33);
+    font-size: 32px;
+    font-weight: 800;
+}
+header nav h3 span{
+    color: rgb(171, 239, 95);;
+}
+.nav-option {
+    display: flex;
+    gap: 30px;
+}
+
+ul>li:first-child {
+    color: rgb(73, 73, 73);
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.nav-right {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.btn-primary {
+    gap: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px 15px 10px 15px;
+    color: rgb(28, 28, 28);
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 32px;
+    border: none;
+    background: rgb(171, 239, 95);
+}
+
+/* Hero Section Style  */
+.hero {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero-title {
+    color: rgb(33, 33, 33);
+    font-size: 64px;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
