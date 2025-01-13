@@ -215,15 +215,73 @@ ul>li:first-child {
     margin: 0px 24px;
     text-align: justify;
 }
-.wc1{
+
+.wc1 {
     background: rgb(231, 193, 211);
 }
-.wc2{
+
+.wc2 {
     background: rgb(239, 218, 110);
 }
-.wc3{
+
+.wc3 {
     background: rgb(164, 218, 195);
 }
-.wc4{
+
+.wc4 {
     background: rgb(119, 170, 234);
+}
+
+/* Our Latest Portfolio Section style */
+.portfolio {
+    text-align: center;
+    padding: 100px 0;
+    max-width: 1280px;
+}
+
+.portfolio-btn {
+    background-color: rgba(171, 239, 95, 0.2);
+}
+
+.portfolio-intro-top {
+    display: flex;
+    text-align: justify;
+    justify-content: space-evenly;
+    gap: 24px;
+    padding: 32px 0;
+}
+
+.portfolio-btn2 {
+    padding-left: 0;
+    font-size: 16px;
+    background-color: white;
+}
+
+.portfolio-intro-top-left {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 24px;
+    gap: 10px;
+    border: 1px solid rgb(233, 233, 233);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+
+.portfolio-intro-top-right {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 24px;
+    border: 1px solid rgb(233, 233, 233);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+.portfolio-intro-bottom{
+    display: flex;
+    text-align: justify;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px auto
+    ;
 }
