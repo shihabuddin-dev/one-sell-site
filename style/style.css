@@ -262,12 +262,14 @@ ul>li:first-child {
     justify-content: space-evenly;
     align-items: center;
     padding: 24px;
-    gap: 10px;
+    gap: 30px;
     border: 1px solid rgb(233, 233, 233);
     border-radius: 16px;
     background: rgb(255, 255, 255);
 }
-
+.arrow{
+    width: 20px;
+}
 .portfolio-intro-top-right {
     display: flex;
     justify-content: space-evenly;
@@ -284,4 +286,37 @@ ul>li:first-child {
     gap: 20px;
     padding: 20px auto
     ;
+}
+/* News section Style  */
+.news{
+    margin: 0 auto;
+    max-width: 1440px;
+text-align: center;
+background: rgb(244, 244, 244);
+padding: 100px 0;
+}
+.news-card{
+    margin: 0 auto;
+    max-width: 1260px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: justify;
+    gap: 30px;
+    padding: 40px 0;
+
+}
+.news-menu{
+    display: flex;
+    padding-bottom: 10px;
+}
+.news-card1{
+    padding: 38px;
+    border-radius: 16px;
+background: rgb(255, 255, 255);
+}
+/* Lets discuss next projects section style  */
+.discuss{
+    background-image: url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
