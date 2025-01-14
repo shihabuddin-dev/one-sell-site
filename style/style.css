@@ -47,7 +47,7 @@ body section {
     padding: 10px 15px 10px 15px;
     color: rgb(28, 28, 28);
     font-size: 20px;
-    font-weight: 650;
+    font-weight: 620;
     border-radius: 32px;
     border: none;
     background: rgb(171, 239, 95);
@@ -58,7 +58,7 @@ body section {
     justify-content: center;
     align-items: center;
     gap: 5px;
-    padding: 10px 15px 10px 15px;
+    padding: 8px 13px 8px 13px;
     color: rgb(28, 28, 28);
     font-size: 20px;
     font-weight: 650;
@@ -267,9 +267,11 @@ ul>li:first-child {
     border-radius: 16px;
     background: rgb(255, 255, 255);
 }
-.arrow{
+
+.arrow {
     width: 20px;
 }
+
 .portfolio-intro-top-right {
     display: flex;
     justify-content: space-evenly;
@@ -279,23 +281,25 @@ ul>li:first-child {
     border-radius: 16px;
     background: rgb(255, 255, 255);
 }
-.portfolio-intro-bottom{
+
+.portfolio-intro-bottom {
     display: flex;
     text-align: justify;
     justify-content: space-around;
     gap: 20px;
-    padding: 20px auto
-    ;
+    padding: 20px auto;
 }
+
 /* News section Style  */
-.news{
+.news {
     margin: 0 auto;
     max-width: 1440px;
-text-align: center;
-background: rgb(244, 244, 244);
-padding: 100px 0;
+    text-align: center;
+    background: rgb(244, 244, 244);
+    padding: 100px 0;
 }
-.news-card{
+
+.news-card {
     margin: 0 auto;
     max-width: 1260px;
     display: grid;
@@ -305,18 +309,119 @@ padding: 100px 0;
     padding: 40px 0;
 
 }
-.news-menu{
+
+.news-menu {
     display: flex;
     padding-bottom: 10px;
 }
-.news-card1{
+
+.news-card1 {
     padding: 38px;
     border-radius: 16px;
-background: rgb(255, 255, 255);
+    background: rgb(255, 255, 255);
 }
+
 /* Lets discuss next projects section style  */
-.discuss{
+.discuss {
+    margin: 0 auto;
+    max-width: 1180px;
     background-image: url(../images/bg.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto;
+    height: 920px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+
+}
+
+.discuss-btn {
+    margin-top: 70px;
+    background-color: rgba(171, 239, 95, 0.2);
+}
+.discuss-form {
+    margin: 0 auto;
+    padding-right: 40px;
+}
+.discuss-form input {
+    border: 1px solid rgb(233, 233, 233);
+    border-radius: 64px;
+    background: rgb(255, 255, 255);
+    padding: 21px 20px 21px 20px;
+    color: rgb(160, 160, 160);
+    font-size: 16px;
+    font-weight: 500;
+    width: 430px;
+    margin: 20px;
+}
+
+.discuss-form textarea {
+    border: 1px solid rgb(233, 233, 233);
+    border-radius: 32px;
+    background: rgb(255, 255, 255);
+    padding: 21px 20px 21px 20px;
+    width: 970px;
+    height: 240px;
+    color: rgb(160, 160, 160);
+    font-size: 16px;
+    font-weight: 500;
+    margin: 20px;
+}
+.submit-btn{
+    margin: 0 auto;
+    border-radius: 32px;
+background: rgb(171, 239, 95);
+border: none;
+padding: 12px 20px 12px 20px;
+width: 990px;
+color: rgb(28, 28, 28);
+font-size: 20px;
+font-weight: 700;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+/* Footer Section Style  */
+footer{
+    margin: 0 auto;
+    max-width: 1440px;
+    text-align: center;
+    padding: 100px 0;
+    background-color: rgb(28, 28, 28);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+
+}
+.ft{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    gap: 10px;
+}
+.fc{
+    color: rgb(115, 115, 115);
+font-size: 16px;
+font-weight: 500;
+line-height: 26px;
+}
+#footer-center{
+    color: rgb(233, 233, 233);
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+}
+#footer-center li:first-child{
+    color: rgb(194, 191, 191);
+}
+#footer-btn{
+    font-weight: 510;
+    width: 190px;
+height: 40px;
+
 }
